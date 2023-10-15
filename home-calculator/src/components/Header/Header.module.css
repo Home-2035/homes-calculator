@@ -13,16 +13,18 @@
 .header__inner img {
     margin: 10px 40% 10px 10%;
     height: 60px;
-    width: 65px;
+    width: auto;
 }
 
 .header__text {
     width: 100%;
-    padding-top: 2%;
+    
 }
 
+
 .header__text a {
-    margin-right: 10%;
+    margin-right: 13%;
+    margin-top: 3%;
     font-size: 18px;
     font-weight: 600;
     color: #CCCCCC;

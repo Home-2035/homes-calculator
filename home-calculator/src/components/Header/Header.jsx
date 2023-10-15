@@ -1,5 +1,6 @@
 import s from './Header.module.css';
-import logo from './../../images/logo.jpg';
+
+import logo from './../../images/logo-header.png';
 
 let Header = (props) => {
     return (

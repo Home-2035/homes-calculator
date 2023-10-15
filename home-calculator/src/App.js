@@ -15,7 +15,7 @@ function App() {
         <Route path='/calculator' Component={Calculator} />
       </Routes>
 
-      <Footer />
+      
     </BrowserRouter>
   );
 }
