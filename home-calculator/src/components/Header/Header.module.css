@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #39363E;
+}
+
+.header__inner {
+    display: flex;  
+}
+
+.header__inner img {
+    margin: 10px 40% 10px 10%;
+    height: 80px;
+    width: 65px;
+}
+
+.header__text {
+    width: 100%;
+    padding-top: 2%;
+}
+
+.header__text a {
+    margin-right: 10%;
+    font-size: 24px;
+    font-weight: 700;
+    color: #CCCCCC;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header__text a::after {
+    content: '';
+    display: block;
+    background-color: white;
+    width: 0%;
+    height: 1px;
+    transition: width .3s ease-in-out;
+}
+
+.header__text a:hover::after {
+    width: 100%;
+}

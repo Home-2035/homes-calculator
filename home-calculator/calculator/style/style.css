@@ -1,0 +1,214 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    background-color: #36363E;
+}
+.container_home{
+    display: flex;
+    justify-content: center;
+}
+.home{
+    margin-left: -8%;
+    margin-top: -7%;
+    position: absolute;
+}
+.roof{
+  position: absolute;
+  z-index: 5;
+  
+}
+.floor1{
+    position: absolute;
+}
+
+#attic {
+    display: flex;
+    align-items: center;
+    margin-top: -30%;
+    margin-left: 16%;
+}
+
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FF855D;
+   z-index: 10;
+}
+
+.line {
+    width: 420px;
+    height: 2px;
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+.circle_empty {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+    
+}
+
+#window {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 14%;
+}
+
+#window .line{
+    width: 300px;
+   
+}
+
+#wall {
+    display: flex;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 16%;
+}
+
+#wall .line{
+    width: 440px;
+   
+}
+
+#support {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 16%;
+}
+
+#support .line{
+    width: 470px;
+   
+}
+
+#foundation {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 13%;
+}
+
+#foundation .line{
+    width: 340px;
+   
+}
+
+#chimney {
+    display: flex;
+    align-items: center;
+    margin-top: -37%;
+    margin-left: 55%;
+}
+
+#chimney .line{
+    width: 340px;
+   
+}
+ #chimney .circle {
+   
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+   z-index: 10;
+}
+
+ #chimney .circle_empty {
+
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+
+#floor {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 68%;
+}
+
+#floor .line{
+    width: 240px;
+   
+}
+ #floor .circle {
+   
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+   z-index: 10;
+}
+
+ #floor .circle_empty {
+
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+#outerwall {
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 73%;
+}
+
+#outerwall .line{
+    width: 240px;
+   
+}
+ #outerwall .circle {
+   
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+   z-index: 10;
+}
+
+ #outerwall .circle_empty {
+
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    margin-top: 25%;
+    margin-left: 43%;
+    z-index: 20;
+    position: absolute;
+    
+
+  }
+  
+  .price {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .total-price {
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    color: white;
+    font-size: 18px;
+   
+  }
+
+
