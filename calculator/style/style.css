@@ -3,7 +3,11 @@ body, html{
     margin: 0;
     background-color: #36363E;
 }
-
+.container_home{
+    display: flex;
+    justify-content: center;
+}
+.home{
     margin-left: -8%;
     margin-top: -7%;
     position: absolute;
@@ -17,7 +21,7 @@ body, html{
     position: absolute;
 }
 
-#roof {
+#attic {
     display: flex;
     align-items: center;
     margin-top: -30%;
@@ -97,5 +101,114 @@ body, html{
    
 }
 
+#chimney {
+    display: flex;
+    align-items: center;
+    margin-top: -37%;
+    margin-left: 55%;
+}
+
+#chimney .line{
+    width: 340px;
+   
+}
+ #chimney .circle {
+   
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+   z-index: 10;
+}
+
+ #chimney .circle_empty {
+
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+
+#floor {
+    display: flex;
+    align-items: center;
+    margin-top: 7%;
+    margin-left: 68%;
+}
+
+#floor .line{
+    width: 240px;
+   
+}
+ #floor .circle {
+   
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+   z-index: 10;
+}
+
+ #floor .circle_empty {
+
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+#outerwall {
+    display: flex;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 73%;
+}
+
+#outerwall .line{
+    width: 240px;
+   
+}
+ #outerwall .circle {
+   
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    overflow: hidden;
+   z-index: 10;
+}
+
+ #outerwall .circle_empty {
+
+    background-color: #FF855D;
+    z-index: 10;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10%;
+    margin-top: 25%;
+    margin-left: 43%;
+    z-index: 20;
+    position: absolute;
+    
+
+  }
+  
+  .price {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  .total-price {
+    font-size: 24px;
+    color: aliceblue;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #36363E;
+    border: 2px solid #FF855D;
+    color: white;
+    font-size: 18px;
+   
+  }
 
 
