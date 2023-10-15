@@ -9,7 +9,7 @@ let Header = (props) => {
                 <div className={s.header__text}>
                     <a href="/Home">Главная</a>
                     <a href="/Calculator">Калькулятор</a>
-                    <a href="/Contacts">Контакты</a>
+                    <button>Личный кабинет</button>
                 </div>
             </div>
         </header>
