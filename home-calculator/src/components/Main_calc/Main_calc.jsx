@@ -1,6 +1,6 @@
 import './Main_calc.css';
 import home from './../../images/homemini.png';
-import './maicalc.js'
+import script from './maicalc.js';
 function Maincalc(){
     return (
     <>
@@ -14,10 +14,11 @@ function Maincalc(){
             
             <form className='formcalc'>
                 
-               <center><label>Площадь дома, <p id="value"></p>м² </label><input type="range" min="1" max="1000"id="input" step="1"></input></center> 
+               <center><label>Площадь дома, <output id='values' for="rock" >1</output> м² </label><input type="range" min="1" max="1000" id="inputs" step="1"></input></center> 
             </form>
         </div>
     </div>
+    <script src={script}></script>
     </>
     );
 }

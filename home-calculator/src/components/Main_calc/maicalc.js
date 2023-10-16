@@ -1,12 +1,16 @@
-
 function valueinput(){
-const value=document.getElementById('value');
-const input=document.getElementById('input');
-value.textContent=1;
-input.addEventListener("input",(event)=>{
-    value.textContent=event.target.value;
-});
-}
+    let InputRange = document.querySelector("#input");
+    let ValueRange = document.querySelector("#values");
 
+    // ValueRange.textContent = InputRange.valueinput;
+
+    // if (ValueRange.textContent!==InputRange.valueinput){
+    //     ValueRange.textContent = InputRange.valueinput;
+    // }
+
+    // InputRange.addEventListener("input",(event)=>{
+    //     ValueRange.textContent=event.target.value;
+    // });
+}
 export default valueinput();
 
