@@ -1,7 +1,7 @@
 function valueinput(){
     let InputRange = document.querySelector("#input");
     let ValueRange = document.querySelector("#values");
-
+    // Тут наши полномочия все!!
     // ValueRange.textContent = InputRange.valueinput;
 
     // if (ValueRange.textContent!==InputRange.valueinput){
