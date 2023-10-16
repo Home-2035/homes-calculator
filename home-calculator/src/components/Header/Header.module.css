@@ -1,3 +1,6 @@
+.headerCalculator {
+box-shadow: 0 0 0 3px #f96b3b;
+}
 .header {
     position: relative;
     z-index: 50;
@@ -57,3 +60,4 @@ color: white;
 .header__text button:hover{
 background-color: #f96b3b;
 }
+
