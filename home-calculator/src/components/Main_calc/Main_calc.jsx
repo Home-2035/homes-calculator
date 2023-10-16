@@ -7,8 +7,8 @@ function Maincalc(){
     
     <h1 className='title'>Калькулятор строительства</h1>
     <div className='maincalc'>
-        <div className='home'>
-            <img src={home} alt='Homemini'></img>
+        <div className='home_container'>
+            <img src={home} alt='Homemini' className='home'></img>
         </div>
         <div className='choice'>
             
@@ -18,11 +18,6 @@ function Maincalc(){
             </form>
         </div>
     </div>
-    
-
-    <script>
-        const value = document.getElementBy
-    </script>
     </>
     );
 }
