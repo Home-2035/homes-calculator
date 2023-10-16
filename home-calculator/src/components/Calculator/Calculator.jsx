@@ -10,13 +10,13 @@ let Calculator = (props) => {
     <div className="home">
       {/* ЧАСТИ ДОМА */}
       <div className="roof">
-        <img src={require("./pictures/roof.png")} alt="roof" />
+        <img className="HomeImage" src={require("./pictures/roof.png")} alt="roof" />
       </div>
       <div className="floor1">
-        <img src={require("./pictures/floor1.png")} alt="floor1" />
+        <img className="HomeImage" src={require("./pictures/floor1.png")} alt="floor1" />
       </div>
       <div className="foundation">
-        <img src={require("./pictures/foundation.png")} alt="foundation" />
+        <img className="HomeImage" src={require("./pictures/foundation.png")} alt="foundation" />
       </div>
       {/* ЛИНИИ ВЫБОРА */}
       <div className="container_choice" id="attic">
