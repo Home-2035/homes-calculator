@@ -10,12 +10,10 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path='/Home' Component={Main}/>
-        <Route path='' Component={Main}/> {/* path="" - Перавый запуск React */}
+        <Route path='' Component={Main} /> {/* path="" - Перавый запуск React */}
+        <Route path='/Home' Component={Main} />
         <Route path='/calculator' Component={Calculator} />
       </Routes>
-
-
     </BrowserRouter>
   );
 }

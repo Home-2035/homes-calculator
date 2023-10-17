@@ -17,9 +17,9 @@
 .home{
     position: static;
 }
-.formcalc input[type="range"]{
-    width: 80%;
-    accent-color: coral;;
+ #ran{
+    width: 100%;
+    accent-color: coral;
     
 }
 
