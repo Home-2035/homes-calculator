@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Calculator from "./Calculator";
 
 const Popup = () => {
     const buttonRef = useRef(null);

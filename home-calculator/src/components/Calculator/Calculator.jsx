@@ -1,6 +1,7 @@
 import "./style/style.css";
 import React from 'react';
 import Popup from "./popup.js";
+// import OpenModal from "./ModalOp.js";
 
 
 
@@ -15,38 +16,36 @@ let Calculator = (props) => {
       {/* modalka */}
 
   <section>
-    <button class="section_button section_button1">Открыть</button>
+    <button class="section_button section_button1" onClick={Popup}>Открыть</button>
   </section>
 
-  <div class="modal">
-    <div class="modal_main">
-      <button class="modal_btn active">Минеральная вата</button>
-      <button class="modal_btn">Экструзионный пенополист</button>
-    </div>
-
-    <div class="modal_main">
-      <h1>Утипление фасада дома</h1>
-
-      <p>Минеральная (базальовая или кварцевая) <br/> 
-      вата - материал сделанный из натурального...</p>
-      <div class="plusi">
-        <img src="img/list.png"/> <h3>Натуральные компоненты</h3>
-      </div>
-      <div class="plusi">
-        <img src="img/fire.png"/> <h3>Негорючесть</h3>
-      </div>
-      <div class="plusi">
-        <img src="img/clock.png"/> <h3 class='clock_text'>Недолговечность</h3>
-      </div>
-
-      <div class="price">
-        <h3>200 000руб.</h3>
-        <button class="modal_btn">Добавить</button>
-      </div>
-
-    </div>
+  
+<div class="modal">
+  <div class="modal_main">
+  <h1>Утипление фасада дома</h1>
+  <div class="modal_main">
+    <button class="modal_btn active">Минеральная вата</button>
+    <button class="modal_btn">Экструзионный пенополист</button>
   </div>
-      
+<p>Минеральная (базальовая или кварцевая) <br/> 
+вата - материал сделанный из натурального...</p>
+<div class="plusi">
+  <img src="img/list.png"/> <h3>Натуральные компоненты</h3>
+</div>
+<div class="plusi">
+  <img src="img/fire.png"/> <h3>Негорючесть</h3>
+</div>
+<div class="plusi">
+  <img src="img/clock.png"/> <h3 class='clock_text'>Недолговечность</h3>
+</div>
+
+<div class="price">
+  <h3>200 000руб.</h3>
+  <button class="modal_btn">Добавить</button>
+</div>
+
+</div>
+</div>
 
   <div className="container_home">
     <div className="home">
