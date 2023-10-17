@@ -1,5 +1,8 @@
 import "./style/style.css";
-import popup from "./popup.js";
+import React from 'react';
+import Popup from "./popup.js";
+
+
 
 let Calculator = (props) => {
     return (
@@ -106,7 +109,7 @@ let Calculator = (props) => {
     </div>
   </div>
 
-  <script src={popup.js}></script>
+  
 </>
 
     )
