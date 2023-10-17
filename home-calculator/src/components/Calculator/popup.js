@@ -1,5 +1,8 @@
-const buttonElem = document.querySelector('.section_button');
-const modalElem = document.querySelector('.modal');
+import {popup} from 'react';
+import Calculator from "./Calculator";
+
+const buttonElem = Calculator.querySelector('.section_button');
+const modalElem = Calculator.querySelector('.modal');
 
 modalElem.style.cssText = `
     display: flex;
@@ -31,3 +34,4 @@ const openModal = () => {
 buttonElem.addEventListener('click', openModal);
 modalElem.addEventListener('click', closeModal);
 
+export default popup;
