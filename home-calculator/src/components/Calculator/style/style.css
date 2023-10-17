@@ -3,13 +3,14 @@ body, html{
     margin: 0;
     background-color: #36363E;
 }
-
+.HomeImage{
+    max-width: 1200px;
+}
 .container_home{
     display: flex;
     justify-content: center;
 }
 .home{
-
     margin-top: -5%;
     position: absolute;
 }

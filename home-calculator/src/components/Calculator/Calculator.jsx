@@ -20,11 +20,9 @@ let Calculator = (props) => {
       </div>
       {/* ЛИНИИ ВЫБОРА */}
       <div className="container_choice" id="attic">
-  
         <button className="circle_empty"></button>
         <div className="line" />
         <div className="circle" />
-        
       </div>
       <div className="container_choice" id="window">
         <div className="circle_empty" />
