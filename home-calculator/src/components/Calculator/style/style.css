@@ -3,12 +3,11 @@ body, html{
     margin: 0;
     background-color: #36363E;
 }
-.HomeImage{
-    max-width: 1200px;
-}
+
 .container_home{
     display: flex;
     justify-content: center;
+    margin-left: -3%;
 }
 .home{
     margin-top: -5%;
@@ -26,8 +25,8 @@ body, html{
 #attic {
     display: flex;
     align-items: center;
-    margin-top: -30%;
-    margin-left: 16%;
+    margin-top: -31%;
+    margin-left: 13%;
 }
 
 .circle {
@@ -39,7 +38,7 @@ body, html{
 }
 
 .line {
-    width: 420px;
+    width: 350px;
     height: 2px;
     background-color: #FF855D;
     z-index: 10;
@@ -59,8 +58,8 @@ body, html{
 #window {
     display: flex;
     align-items: center;
-    margin-top: 3%;
-    margin-left: 14%;
+    margin-top: 4%;
+    margin-left: 7.5%;
 }
 
 #window .line{
@@ -71,24 +70,24 @@ body, html{
 #wall {
     display: flex;
     align-items: center;
-    margin-top: 3%;
-    margin-left: 16%;
+    margin-top: 2%;
+    margin-left: 15%;
 }
 
 #wall .line{
-    width: 440px;
+    width: 340px;
    
 }
 
 #support {
     display: flex;
     align-items: center;
-    margin-top: 7%;
-    margin-left: 16%;
+    margin-top: 8%;
+    margin-left: 13%;
 }
 
 #support .line{
-    width: 470px;
+    width: 370px;
    
 }
 
@@ -96,18 +95,18 @@ body, html{
     display: flex;
     align-items: center;
     margin-top: 4%;
-    margin-left: 13%;
+    margin-left: 10%;
 }
 
 #foundation .line{
-    width: 340px;
+    width: 300px;
    
 }
 
 #chimney {
     display: flex;
     align-items: center;
-    margin-top: -37%;
+    margin-top: -39%;
     margin-left: 55%;
 }
 
@@ -182,11 +181,11 @@ body, html{
 
 .container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-   
-    margin-top: 23%;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 32%;
 
     
 
