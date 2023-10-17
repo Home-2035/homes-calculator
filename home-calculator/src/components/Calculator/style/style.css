@@ -36,6 +36,7 @@ body, html{
     border-radius: 50%;
     background-color: #FF855D;
    z-index: 10;
+   cursor: pointer;
 }
 
 .line {
@@ -52,7 +53,7 @@ body, html{
     background-color: #36363E;
     border: 2px solid #FF855D;
     overflow: hidden;
-    
+    cursor: pointer;
     
 }
 
@@ -230,3 +231,112 @@ body, html{
     width: 1400px;
    }
 
+
+
+   /* modalka */
+
+   .plusi{
+    margin-top: 20px;
+   }
+   .plusi h3{
+    color: #53C541;
+   }
+   .clock_text{
+    color: rgb(153, 153, 153);
+   }
+   .modal_main h1{
+    font-size: 36px;
+   }
+
+
+  .modal{
+    position: fixed;
+    /* inset: 0; */
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    z-index: 11;
+    overflow-y: auto;
+  }
+  
+  .modal_main{
+    position: absolute;
+    width: 380px;
+    background-color: #39363E;
+    height: 100%;
+    cursor: default;
+    z-index: 11;
+  }
+  
+  .modal_btn:first-child{
+    margin-top: 53px;
+  }
+  .modal_btn{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 333px;
+    border-radius: 16px;
+    padding: 10px;
+    border: 3px solid #FF855D;
+    height: 53px;
+    margin-top: 25px; 
+    margin-left: 20px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .active{
+    border-color: #53C541;
+  }
+  
+  .modal_main:last-child{
+    /* right: 0; */
+    left: auto;
+  
+    width: 500px;
+  
+    color: white;
+    
+  }
+  .modal_main:last-child h1{
+    margin-top: 53px;
+    text-align: center;
+  }
+  .modal_main:last-child p{
+    font-size: 22px;
+    margin-left: 22px;
+  }
+  
+  .plusi{
+    display: flex;
+  }
+  
+  .plusi img{
+    width: 37px;
+    height: 39px;
+    margin-left: 36px;
+  }
+  .plusi h3{
+    margin-left: 26px;
+    line-height: 5px;
+    font-size: 22px;
+  }
+  
+  .price{
+    border: 3px solid #FF855D;
+    border-radius: 20px;
+    width: 420px;
+    margin-left: 32px;
+    text-align: center;
+    height: 180px;
+    margin-top: 315px;
+  
+  }
+  
+  .price h3{
+    font-size: 36px;
+  }
+  
+  .price button{
+    margin: 0;
+  }
+  
