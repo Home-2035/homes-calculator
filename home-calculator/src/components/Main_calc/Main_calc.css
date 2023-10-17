@@ -16,13 +16,44 @@
 }
 .home{
     position: static;
+    
 }
  #ran{
     width: 100%;
     accent-color: coral;
+    margin-top: 30px;
     
 }
 
 .formcalc label{
 color: white;
+}
+.select{
+    margin-top:30px ;
+    border: 3px solid #FF855D;
+    border-radius: 20px;
+    width: 90%;
+    background-color: #282c34;;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    
+    
+}
+.continue{
+    border: 3px solid #FF855D;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 40%;
+    height: 30px;
+    background-color: #282c34;;
+    color: #FFF;
+    transition: all 0.3s;
+    
+}
+.continue:hover{
+    color: #FFF;
+    background-color: #FF855D;
+
+
 }
