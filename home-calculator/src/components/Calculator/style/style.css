@@ -282,6 +282,7 @@ button.circle_empty {
 .modal_main {
   position: absolute;
   width: 380px;
+  margin-top: 2%;
   background-color: #39363E;
   height: 100%;
   cursor: default;
@@ -314,14 +315,14 @@ button.circle_empty {
   /* right: 0; */
   left: auto;
 
-  width: 500px;
+  /* width: 500px; */
 
   color: white;
 
 }
 
 .modal_main:last-child h1 {
-  margin-top: 53px;
+  margin-top: 128px;
   text-align: center;
 }
 
@@ -363,4 +364,15 @@ button.circle_empty {
 
 .price button {
   margin: 0;
+}
+
+/* Вторая модалка */
+.win2 {
+  position: absolute;
+  margin-left: 1250px;
+  width: 380px;
+  background-color: #39363E;
+  height: 100%;
+  cursor: default;
+  z-index: 11;
 }
