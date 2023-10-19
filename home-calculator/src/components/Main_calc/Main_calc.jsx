@@ -11,7 +11,7 @@ import { useState } from 'react';
   
     return (
       <div>
-       <center> <p className='title'>Площадь дома, {value} м²</p></center>
+       <center> <p className='h'>Площадь дома, {value} м²</p></center>
         <input id='ran'
           type="range"
           min="1"
@@ -33,10 +33,11 @@ function Maincalc(){
             <img src={require("./../../images/homem.png")} alt='Homemini' className='home'></img>
         </div>
         <div className='choice'>
-            
         <form className='formcalc'>
+        <center>
             <Slider/>
-            <center><select className='select'>
+            <select className='select'>
+              <option className='option' disabled>Количество этажей</option>
               <option className='option'>1</option>
               <option className='option'>2</option>
             </select>

@@ -1,30 +1,32 @@
 .title{
     text-align: center;
     color: #FFF;
+    margin-top: 30px;;
 }
 .maincalc{
     display: flex;
     justify-content: space-around;
+    height: 400px;
     margin-top: 10%;
     
 }
 .formcalc{
-    width: 350px;
-    height: 200px;
+    width: 450px;
+    height: 220px;
     border:2px solid #FF855D; 
     border-radius: 20px;
    
 }
-.home{
-    position: static;
+.home_container{
+    margin-top: -40px;
 }
+
  #ran{
-    width: 100%;
-    margin-top: 5px;;
+    width: 90%;
+    margin-top: 10px;
     accent-color: coral;
     
 }
-
 .formcalc label{
 color: white;
 }
@@ -44,7 +46,7 @@ color: white;
     border: 2px solid #FF855D;
     border-radius: 20px;
     margin-top: 30px;
-    width: 40%;
+    width: 50%;
     height: 30px;
     background-color: #282c34;;
     color: #FFF;
@@ -57,10 +59,14 @@ color: white;
 
 
 }
+
 .home_container .home{
     width: 600px;
     height: 400px;
+
 }
-.home_container{
-    margin-top: -90px;
+.h{
+    font-size: 22px;
+    margin-top: 10px;
+    color: #FFF;
 }
