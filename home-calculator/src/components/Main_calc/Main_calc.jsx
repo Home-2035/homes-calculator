@@ -33,9 +33,14 @@ function Maincalc(){
             <img src={home} alt='Homemini' className='home'></img>
         </div>
         <div className='choice'>
-            
         <form className='formcalc'>
+        <center>
             <Slider/>
+            <select className='select'>
+              <option className='option'>1</option>
+              <option className='option'>2</option>
+            </select>
+            <button className='continue'>Далее</button></center>
         </form>
     </div>
     </div>

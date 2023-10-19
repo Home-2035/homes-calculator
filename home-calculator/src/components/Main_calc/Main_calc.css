@@ -5,6 +5,7 @@
 .maincalc{
     display: flex;
     justify-content: space-around;
+    height: 400px;
     margin-top: 10%;
     
 }
@@ -14,15 +15,49 @@
     border:2px solid #FF855D; 
     border-radius: 20px;
 }
+.home_container{
+    margin-top: -40px;
+}
 .home{
     position: static;
+    width: 450px;
+    height: 300px;
 }
  #ran{
     width: 100%;
+    margin-top: 10px;
     accent-color: coral;
     
 }
-
 .formcalc label{
 color: white;
+}
+.select{
+    margin-top:30px ;
+    border: 2px solid #FF855D;
+    border-radius: 20px;
+    width: 90%;
+    background-color: #282c34;;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+
+
+}
+.continue{
+    border: 2px solid #FF855D;
+    border-radius: 20px;
+    margin-top: 30px;
+    width: 40%;
+    height: 30px;
+    background-color: #282c34;;
+    color: #FFF;
+    transition: all 0.3s;
+
+}
+.continue:hover{
+    color: #FFF;
+    background-color: #FF855D;
+
+
 }
