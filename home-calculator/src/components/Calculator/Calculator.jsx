@@ -74,12 +74,12 @@ let Calculator = (props) => {
             <div className="line" />
             <Circle setActive={setModalActive} />
           </div>
-          <div className="container">
-            <div className="price">Стоимость составляющих</div>
-            <div className="total-price">0 руб</div>
+        </div>
+        <div className="container">
+            <p className="totalPrice">Стоимость составляющих</p>
+            <p className="total-price">0 руб</p>
             <button className="button">Итоговая цена</button>
           </div>
-        </div>
       </div>
       <Modal active={modalActive} setActive={setModalActive} />
     </>

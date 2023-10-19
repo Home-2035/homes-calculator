@@ -14,7 +14,7 @@ const Modal = ({ active, setActive }) => {
                     <div className='win2'>
                         {selectedButton === "mineral" ? (
                             <>
-                                <p>Минеральная (базальовая или кварцевая) <br />
+                                <p className='modalDescr'>Минеральная (базальовая или кварцевая) <br />
                                     вата - материал сделанный из натурального...</p>
                                 <div className="plusi">
                                     <img src="img/list.png" /> <h3>компоненты</h3>
