@@ -1,5 +1,5 @@
 import './Main_calc.css';
-import home from './../../images/homemini.png';
+
 import { useState } from 'react';
 
    const Slider = () => {
@@ -30,12 +30,17 @@ function Maincalc(){
     <h1 className='title'>Калькулятор строительства</h1>
     <div className='maincalc'>
         <div className='home_container'>
-            <img src={home} alt='Homemini' className='home'></img>
+            <img src={require("./../../images/homem.png")} alt='Homemini' className='home'></img>
         </div>
         <div className='choice'>
             
         <form className='formcalc'>
             <Slider/>
+            <center><select className='select'>
+              <option className='option'>1</option>
+              <option className='option'>2</option>
+            </select>
+            <button className='continue'>Далее</button></center>
         </form>
     </div>
     </div>
